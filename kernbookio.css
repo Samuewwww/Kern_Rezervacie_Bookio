@@ -2,7 +2,7 @@
 
 body,
 .np-body-bg{
-	background-color: #f6f7f5; 
+	background-color: #e61010; 
 }
 
 /*
@@ -21,7 +21,7 @@ body,
 .ui-datepicker,  		/* 4. */
 .np-select.active
 .np-input{
-	background-color: #453a3a;
+	background-color: #e61010;
 }
 
 
