@@ -1,134 +1,123 @@
-/* Widget background color */ 
+/* === Background === */
 body,
 .np-body-bg {
-  background-color: #141414;
+  background-color: #141414 !important;
 }
 
-/* Header, date input, select boxes, datepicker */
+/* === Inputs and Containers === */
 #header,
-.np-filed,
-.np-select:active,
+.np-field,
+.np-input,
+.np-select,
 .selectWrapper,
 .selectOptions,
 .ui-datepicker,
-.np-select.active,
-.np-input {
-  background-color: #141414;
-  border: 2px solid #ffffff;
+.np-select.active {
+  background-color: #141414 !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  padding: 1rem !important;
+  box-sizing: border-box !important;
 }
 
-/* Text styles */
+/* === Date, Time, Guests, Duration Boxes === */
+.np-field,
+.np-select {
+  width: 22% !important;
+  margin: 1% !important;
+  display: inline-block !important;
+}
+
+/* === Typography === */
+body,
 .np-body p,
 .np-link,
 .np-options a,
 p a.np-link,
 .np-checkbox-wrapp a,
 .np-options li:not(:first-child):before,
-#header,
-.np-select,
 .selectOptions li,
 .ui-datepicker th,
 .ui-datepicker-prev span,
 .ui-datepicker-next span,
 .ui-datepicker tbody td a {
-  color: #ffffff;
-  text-align: center;
+  color: #ffffff !important;
+  text-align: center !important;
+  font-size: 1.2rem !important;
 }
 
-/* Link hover */
+/* === Hover States === */
 a.np-link:hover,
 .np-options a:hover,
 .np-checkbox-wrapp a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* Select box arrows */
-.np-select:after {
-  border-color: #ffffff transparent transparent transparent;
-}
-.np-select:before {
-  border-color: transparent transparent #ffffff transparent;
-}
-
-/* Select box styling */
-.selectOptions li {
-  border-bottom: 1px solid #ffffff;
-  background: #141414;
-  color: #ffffff;
-  text-align: center;
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 .selectOptions li:hover {
-  background: #2a2a2a;
-  color: #ffffff;
+  background: #2a2a2a !important;
+  color: #ffffff !important;
 }
 
-/* Set selectors to equal size */
-.selectWrapper,
-.np-select,
-.selectOptions {
-  width: 20% !important;
+/* === Select Box Arrows === */
+.np-select:after {
+  border-color: #ffffff transparent transparent transparent !important;
+}
+.np-select:before {
+  border-color: transparent transparent #ffffff transparent !important;
 }
 
-/* Datepicker style */
-.ui-datepicker-header,
-.ui-datepicker-title {
-  color: #ffffff;
-  text-align: center;
-}
-.ui-datepicker-unselectable span {
-  color: #665656 !important;
-}
-.ui-datepicker-calendar .ui-state-active {
-  color: #f29c4c;
-}
-.ui-datepicker tbody td a {
-  border-bottom: 2px solid #ffffff !important;
-  text-align: center;
-}
-.ui-datepicker-today a {
-  background-color: #f29c4c;
-  color: #141414;
-}
-.ui-datepicker-today .ui-state-active {
-  color: #ffffff;
+/* === Select Options === */
+.selectOptions li {
+  border-bottom: 1px solid #ffffff !important;
+  background: #141414 !important;
+  color: #ffffff !important;
+  text-align: center !important;
 }
 
-/* Button style */
+/* === Button Styling === */
 .np-button {
-  background-color: #141414;
-  border: 2px solid #f29c4c;
-  color: #ffffff;
-  text-align: center;
+  background-color: #141414 !important;
+  border: 2px solid #f29c4c !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  padding: 1rem 2rem !important;
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  border-radius: 30px !important;
+  transition: background 0.3s ease !important;
 }
 .np-button:hover {
-  background-color: #1f1f1f;
-  border-color: #f29c4c;
+  background-color: #1f1f1f !important;
+  border-color: #f29c4c !important;
+  color: #ffffff !important;
 }
 
-/* Sub-header box */
+/* === Sub-Header === */
 .np-label-box {
-  color: #ffffff;
-  background-color: #141414;
-  text-align: center;
+  color: #ffffff !important;
+  background-color: #141414 !important;
+  text-align: center !important;
 }
 .np-label-box .np-triangle {
-  border-color: #141414 transparent transparent transparent;
-  _border-color: #141414 #000000 #000000 #000000;
+  border-color: #141414 transparent transparent transparent !important;
 }
 
-/* Alternative times */
+/* === Alternative Times === */
 .np-alternatives li {
-  border-color: #ffffff;
-  color: #ffffff;
-  text-align: center;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+  text-align: center !important;
 }
 .np-alternatives li:hover {
-  background-color: #ffffff;
-  color: #141414;
+  background-color: #ffffff !important;
+  color: #141414 !important;
 }
 
-/* Inactive input fields */
+/* === Disabled Inputs === */
 .np-disabled,
 .np-disabled .np-input,
 .np-alternatives .np-disabled,
@@ -137,21 +126,46 @@ a.np-link:hover,
   color: #c7c9c6 !important;
 }
 
-/* Input border color */
+/* === Datepicker === */
+.ui-datepicker-header,
+.ui-datepicker-title {
+  color: #ffffff !important;
+  text-align: center !important;
+}
+.ui-datepicker-unselectable span {
+  color: #665656 !important;
+}
+.ui-datepicker-calendar .ui-state-active {
+  color: #f29c4c !important;
+}
+.ui-datepicker tbody td a {
+  border-bottom: 2px solid #ffffff !important;
+  text-align: center !important;
+}
+.ui-datepicker-today a {
+  background-color: #f29c4c !important;
+  color: #141414 !important;
+}
+.ui-datepicker-today .ui-state-active {
+  color: #ffffff !important;
+}
+
+/* === Input Border (Underline) === */
 .np-input-wrapp {
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff !important;
 }
 
-/* Google Map icon */
+/* === Google Map Icon === */
 .np-gmap-ico {
-  background-color: #141414;
+  background-color: #141414 !important;
 }
 
+/* === Decorative Line (unused?) === */
 .np-text-before {
-  border-top: #edf0ea;
+  border-top: #edf0ea !important;
 }
 
-/* Hide footer and branding */
+/* === Hide Branding/Footer === */
 .np-footer,
 .np-bookio-branding {
   display: none !important;
@@ -160,4 +174,16 @@ a.np-link:hover,
   margin: 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
+}
+
+/* === Responsive Fixes (Optional, for mobile layout) === */
+@media (max-width: 768px) {
+  .np-field,
+  .np-select {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+  .np-button {
+    width: 100% !important;
+  }
 }
