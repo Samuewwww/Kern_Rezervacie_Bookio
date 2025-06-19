@@ -2,7 +2,7 @@
 
 body,
 .np-body-bg{
-	background-color: #FF0000; 
+	background-color: #141414; 
 }
 
 /*
@@ -13,15 +13,25 @@ body,
   3.  Select box background color 
   4.  Datepicker background color
 */
-#header, 				/* 1. */
-.np-filed, 				/* 2. */
+#header {
+	background-color: #141414; 
+}				/* 1. */
+.np-filed{
+	background-color: #141414; 
+}	 				/* 2. */
 .np-select:active, 
-.selectWrapper, 		/* 3. */
-.selectOptions, 		/* 3. */
-.ui-datepicker,  		/* 4. */
+.selectWrapper{
+	background-color: #141414; 
+}	 		/* 3. */
+.selectOptions{
+	background-color: #141414; 
+}	 		/* 3. */
+.ui-datepicker{
+	background-color: #141414; 
+}	  		/* 4. */
 .np-select.active
 .np-input{
-	background-color: #FF0000;
+	background-color: #141414;
 }
 
 
@@ -41,7 +51,7 @@ body,
 p a.np-link,								/* 2. */
 .np-checkbox-wrapp a,					/* 4. */
 .np-options li:not(:first-child):before{
-	color: #FF0000;
+	color: #141414;
 }
 
 
@@ -96,7 +106,7 @@ a.np-link:hover,
 	border-bottom:1px solid #746161;
 }
 .selectOptions li:hover {
-	color: #453a3a;
+	color: #141414;
 	background: #eff0ee;
 }
 
@@ -106,7 +116,7 @@ a.np-link:hover,
 */
 .ui-datepicker-header,
 .ui-datepicker-title{ 
-	color: #79d9c3; 
+	color: #141414; 
 }
 
 /*
