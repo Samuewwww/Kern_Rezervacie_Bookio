@@ -2,7 +2,7 @@
 
 body,
 .np-body-bg{
-	background-color: #FFFFFF !important; /* bright red */
+	background-color: ##141414 !important; /* bright red */
 }
 
 /*
@@ -21,7 +21,7 @@ body,
 .ui-datepicker,  		/* 4. */
 .np-select.active
 .np-input{
-	background-color: #FFFFFF !important; /* bright green */
+	background-color: #FF0000 !important; /* bright green */
 }
 
 
@@ -80,14 +80,14 @@ a.np-link:hover,
 * 	Color of top selectbox arrow (first step)
 */
 .np-select:after {
-  border-color: #FF0000 transparent transparent transparent !important; /* red */
+  border-color: #FFFFFF transparent transparent transparent !important; /* red */
 }
 
 /**
 * 	Color of bottom selectbox arrow (first step)
 */
 .np-select:before{
-  border-color: transparent transparent #FF0000 transparent !important; /* red */
+  border-color: transparent transparent #FFFFFF transparent !important; /* red */
 }
 
 
