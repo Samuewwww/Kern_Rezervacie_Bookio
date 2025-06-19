@@ -2,7 +2,7 @@
 
 body,
 .np-body-bg{
-	background-color: #141414; 
+	background-color: #FF0000 !important; /* bright red */
 }
 
 /*
@@ -13,25 +13,15 @@ body,
   3.  Select box background color 
   4.  Datepicker background color
 */
-#header {
-	background-color: #141414; 
-}				/* 1. */
-.np-filed{
-	background-color: #141414; 
-}	 				/* 2. */
+#header, 				/* 1. */
+.np-filed, 				/* 2. */
 .np-select:active, 
-.selectWrapper{
-	background-color: #141414; 
-}	 		/* 3. */
-.selectOptions{
-	background-color: #141414; 
-}	 		/* 3. */
-.ui-datepicker{
-	background-color: #141414; 
-}	  		/* 4. */
+.selectWrapper, 		/* 3. */
+.selectOptions, 		/* 3. */
+.ui-datepicker,  		/* 4. */
 .np-select.active
 .np-input{
-	background-color: #141414;
+	background-color: #00FF00 !important; /* bright green */
 }
 
 
@@ -39,7 +29,7 @@ body,
  	Base text style
  	
  	Text color of
- 	1. Base paragrapth text
+ 	1. Base paragraph text
  	2. Link text color
  	3. Alternative times text color (second step
  	4. VOP text color
@@ -51,7 +41,7 @@ body,
 p a.np-link,								/* 2. */
 .np-checkbox-wrapp a,					/* 4. */
 .np-options li:not(:first-child):before{
-	color: #141414;
+	color: #FF0000 !important; /* bright red */
 }
 
 
@@ -61,7 +51,7 @@ p a.np-link,								/* 2. */
 a.np-link:hover,
 .np-options a:hover,
 .np-checkbox-wrapp a:hover{
-	color: #232121; 
+	color: #0000FF !important; /* bright blue */
 	text-decoration: none;
 }
 
@@ -72,8 +62,8 @@ a.np-link:hover,
 	Text color of:
 	1. Header text color
 	2. Select option text color
-	3. Datepicker's dayOfweek lables text color
-	4. Datepicker's next/prew arrows color
+	3. Datepicker's dayOfweek labels text color
+	4. Datepicker's next/prev arrows color
 	5. Datepicker's active days text color
 */
 #header,											/* 1. */
@@ -83,82 +73,80 @@ a.np-link:hover,
 .ui-datepicker th,									/* 3. */
 .ui-datepicker-prev span,.ui-datepicker-next span, 	/* 4. */
 .ui-datepicker tbody td a{ 							/* 5. */
-	color: #fff;
+	color: #FFFFFF !important; /* white */
 }
 
 /**
 * 	Color of top selectbox arrow (first step)
 */
 .np-select:after {
-  border-color: #746161 transparent transparent transparent; 
+  border-color: #FF0000 transparent transparent transparent !important; /* red */
 }
 
 /**
 * 	Color of bottom selectbox arrow (first step)
 */
 .np-select:before{
-  border-color:transparent transparent #746161 transparent ;
+  border-color: transparent transparent #FF0000 transparent !important; /* red */
 }
 
 
 /* Select box options separator */
 .selectOptions li{
-	border-bottom:1px solid #746161;
+	border-bottom:1px solid #FF0000 !important; /* red */
 }
 .selectOptions li:hover {
-	color: #141414;
-	background: #eff0ee;
+	color: #00FF00 !important; /* green */
+	background: #FFFF00 !important; /* yellow */
 }
-
 
 /**
 * 	Datepicker style
 */
 .ui-datepicker-header,
 .ui-datepicker-title{ 
-	color: #141414; 
+	color: #FF0000 !important; /* red */
 }
 
 /*
 	Datepicker's disabled days
 */
 .ui-datepicker-unselectable span{
-	color: #665656 !important; 
+	color: #FF00FF !important; /* magenta */
 }
 .ui-datepicker-calendar .ui-state-active {
-	color: #79d9c3;
+	color: #FF0000 !important; /* red */
 }
 .ui-datepicker tbody td a{
-	border-bottom: 2px solid #453a3a !important; 
+	border-bottom: 2px solid #FF0000 !important; 
 }
 
 .ui-datepicker-today a{
-	background-color: #79d9c3;
+	background-color: #FF0000 !important;
 }
 .ui-datepicker-today .ui-state-active{
-	color: #fff;
+	color: #FFFFFF !important;
 }
-
 
 /**
 * Widget button style
 */
 .np-button{
-	background-color: #79d9c3; 
-	border-color: #6cc2af; 
-	color: #fff; 
+	background-color: #FF0000 !important; 
+	border-color: #FF4500 !important; /* orange red */
+	color: #FFFFFF !important; 
 }
 .np-button:hover{
- 	background-color: #60c8b0; /* background-color: darken(@buttonColor, 15%);*/
-	border-color: #3fb096;
+ 	background-color: #FF6347 !important; /* tomato */
+	border-color: #FF0000 !important;
 }
 
 /*
 	Style definition of sub-header box (second/third/fourth step)
 */
 .np-label-box{
-	color: #fff;
-	background-color: #79d9c3; 
+	color: #FFFFFF !important;
+	background-color: #FF0000 !important; 
 }
 
 /*
@@ -166,21 +154,19 @@ a.np-link:hover,
 	Same color like: .np-label-box{ background-color: }.
 */
 .np-label-box .np-triangle{
-    border-color: #79d9c3 transparent transparent transparent;
-    _border-color: #79d9c3 #000000 #000000 #000000;
-
+    border-color: #FF0000 transparent transparent transparent !important;
 }
 
 /*
 * Style definition of alternatives times. (Second step of booking)  
 */
 .np-alternatives li{
-    border-color: #453a3a; 
-    color: #453a3a;
+    border-color: #FF0000 !important; 
+    color: #FF0000 !important;
 }
 .np-alternatives li:hover{
-    background-color: #453a3a; 
-    color: #fff;
+    background-color: #FF0000 !important; 
+    color: #FFFFFF !important;
 }
 
 /*
@@ -190,26 +176,24 @@ a.np-link:hover,
 .np-disabled .np-input,
 .np-alternatives .np-disabled, 
 .np-alternatives .np-disabled:hover{
-	border-color: #c7c9c6 !important;
-	color: #c7c9c6 !important;
+	border-color: #808080 !important; /* gray */
+	color: #808080 !important;
 }
-
 
 /*
 	Border color of input fields in third step of booking
 */
 .np-input-wrapp{
-  border-bottom: 3px solid #453a3a;
+  border-bottom: 3px solid #FF0000 !important;
 }
-
 
 /*
 	Background color of circle situated in Google Map
 */
 .np-gmap-ico{
-	background-color: #79d9c3;
+	background-color: #FF0000 !important;
 }
 
 .np-text-before{
-	border-top: #edf0ea; 
+	border-top: #FF0000 !important;
 }
