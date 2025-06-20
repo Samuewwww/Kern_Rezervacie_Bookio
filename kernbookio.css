@@ -5,31 +5,88 @@ body,
 }
 
 /* === Inputs and Containers === */
-#header,
-.np-field,
-.np-input,
+#header{
+    border: 0px none #ffffff !important;
+    font-size: 0px;
+}
+.np-filed {
+    width: 20% !important;
+    margin: 1% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    background-color: #222222 !important;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+}
+.np-input{
+    width: 20% !important;
+    margin: 1% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    background-color: #222222 !important;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+}
 .np-select,
-.selectWrapper,
-.selectOptions,
-.ui-datepicker,
+.selectWrapper{
+    width: 20% !important;
+    margin: 1% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    background-color: #222222 !important;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+}
+.selectOptions{
+    width: 20% !important;
+    margin: 1% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    background-color: #222222 !important;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+}
+.ui-datepicker{
+    width: 20% !important;
+    margin: 1% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    background-color: #222222 !important;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+}
 .np-select.active {
-  background-color: #141414 !important;
-  border: 2px solid #ffffff !important;
-  color: #ffffff !important;
+    width: 20% !important;
+  margin: 1% !important;
+  text-align: center !important;
+  display: inline-block !important;
+  background-color: #222222 !important;
   text-align: center !important;
   font-size: 1.5rem !important;
-  font-weight: 600 !important;
-  border-radius: 10px !important;
+  font-weight: 300 !important;
+  border-radius: 8px !important;
   padding: 1rem !important;
   box-sizing: border-box !important;
-}
-
-/* === Date, Time, Guests, Duration Boxes === */
-.np-field,
-.np-select {
-  width: 22% !important;
-  margin: 1% !important;
-  display: inline-block !important;
 }
 
 /* === Typography === */
@@ -72,7 +129,6 @@ a.np-link:hover,
 
 /* === Select Options === */
 .selectOptions li {
-  border-bottom: 1px solid #ffffff !important;
   background: #141414 !important;
   color: #ffffff !important;
   text-align: center !important;
@@ -84,21 +140,21 @@ a.np-link:hover,
   border: 2px solid #f29c4c !important;
   color: #ffffff !important;
   text-align: center !important;
-  padding: 1rem 2rem !important;
-  font-size: 1.3rem !important;
-  font-weight: 700 !important;
-  border-radius: 30px !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border-radius: 100px !important;
   transition: background 0.3s ease !important;
 }
 .np-button:hover {
-  background-color: #1f1f1f !important;
+  background-color: #f29c4c !important;
   border-color: #f29c4c !important;
   color: #ffffff !important;
 }
 
 /* === Sub-Header === */
 .np-label-box {
-  color: #ffffff !important;
+  color: #ffffff00 !important;
   background-color: #141414 !important;
   text-align: center !important;
 }
